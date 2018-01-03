@@ -1,0 +1,169 @@
+<!DOSTYPE>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <title>SC Dostar</title>
+       <meta name="keywords" content="SC Dostar - это футбольный клуб для детей с 4-х лет.
+Наша секция детского футбола является современным клубом, где мы воспитываем целеустремленных спортсменов, нацеленных на большой спорт."/>
+       <link rel="stylesheet" type="text/css" href="style.css">
+       <link rel="stylesheet" href="animation.css"/>
+	   <link rel="icon" href="dos.icon" type="images/x-icon">
+	   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+       <script src="java.js"></script>
+       <script>
+            new WOW().init();
+       </script>
+   </head>
+    <body>
+        <div class="header">   
+            <script>
+                var i = 0;
+                var images = [];
+                var time = 4000;
+                
+                images[0] = 'images/stadion2.jpg';
+                images[1] = 'images/stadion3.jpg';
+                images[2] = 'images/stadion4.jpg';
+                function changeImg(){
+                    document.slider.src = images[i];
+                    
+                    if(i < images.length - 1){
+                        i++;
+                    }
+                    else{
+                        i = 0;
+                    }
+                    setTimeout("changeImg()", time);
+                }
+                window.onload = changeImg;
+            </script>
+            <img src="images/stadion2.jpg" name="slider" width="100%" height="400px" class="animation">
+            <img src="images/Untitled-1.png" class="logo"/>
+            <p class="for_logo1">Футбольный Детский Клуб</p>
+            <p class="for_logo2">SC DOSTAR</p>
+        <nav>
+            <div class="navigate">
+                <a href="file:///C:/Users/admin/Desktop/aybek/index.html">Главное</a>
+                <a href="file:///C:/Users/admin/Desktop/aybek/index1.html">Новости</a>
+                <a href="file:///C:/Users/admin/Desktop/aybek/supply.html">Достижения</a>
+            </div>
+        </nav>
+        
+        </div>
+        
+            
+        
+        <section class="circle wow fadeInLeft" data-wow-duration="0.2s">
+            <p class="about_us1">Почему именно мы?</p>
+        </section>
+            <div class="about_us">
+            <section class="circle wow fadeInLeft" data-wow-duration="3s">
+                <p class="respond">SC Dostar - это футбольный клуб<br>
+для детей с 4-х лет.<br>
+Наша секция детского футбола<br> является современным клубом,<br> где мы воспитываем целеустремленных<br> спортсменов,<br> нацеленных на большой спорт.</p>
+                </section>
+                <section class="circle wow fadeInLeft" data-wow-duration="2s">
+                <p class="respond1">Подготвка к профессиональному<br> футболу.Квалифицированные и <br>доброжелательные тренера.</p>
+                </section>
+                <section class="circle wow fadeInLeft" data-wow-duration="1s">
+                <p class="respond2">Современная методика тренировок.<br>Интересный досуг для ребенка.<br>Удовольствие от занятий и <br>польза для здоровья.</p>
+                </section>
+    
+            </div>
+            
+        
+        <div class="place">
+        <section class="circle wow fadeInLeft" data-wow-duration="2s">
+        <div class="w3-display-container mySlides">
+  <img src="images/IuIPo-5yGhw.jpg" class="sliding">
+            <p class="word_animation">16-17 декабря прошел <br>футбольный турнир.<br>По итогам наши юные<br> футболисты стали<br> чемпионами в своем возросте. </p>
+</div>
+
+            
+<div class="w3-display-container mySlides">
+  <img src="images/k1bH13qL_w4.jpg" class="sliding">
+  <p class="word_animation">А вот так нас встретили<br> родители!!!!<br> @ Almaty Region </p>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/XR1G_TVUjOY.jpg" class="sliding">
+  <p class="word_animation">Международный турнир<br>"Море Футбола"
+9-тур:
+СК Достар-Атлетик:3:0<br>@ Issyk-Kul Region </p>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/kf.jpg" class="sliding"/>
+  <p class="word_animation">Международные турнир "Море Футбола"<br>
+5-турСК Достар - Алматы Юнайтед 3:0<br>
+6-тур СК Достар - сб Таджикистана 3:0<br>
+7-тур СК Достар - Енбек-3 5:0 @ Issyk-Kul  </p>
+</div>
+            </section>
+            </div>
+                  
+        <button class="button1" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="button2" onclick="plusDivs(1)">&#10095;</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+        
+        <div class="position">
+            <section class="circle wow fadeInLeft" data-wow-duration="2s">
+            <p class="location">Месторасположение Тренировок</p>
+            </section>
+            <section class="circle wow fadeInLeft" data-wow-duration="3s">
+            <p class="location1"> в микрорайоне Сайран.Адрес: по <br>Матезалки между Кабдолова и Толе би на базе P.F.L</p>
+            </section>
+            <section class="circle wow fadeInLeft" data-wow-duration="2s">
+            <p class="location2">пр. КИЗ шк. им. Аль-Фараби</p>
+            </section>
+            <section class="circle wow fadeInLeft" data-wow-duration="1s">
+            <p class="location3"> ул.Яссави 1Б уг. ул. Джандосова</p>
+            </section>
+            <img src="images/card.jpg" class="what" width="350" height="200"/>
+            <img src="images/card1.jpg" class="what1" width="350" height="200"/>
+			<div>
+            <img src="images/card2.jpg" class="what2" width="350" height="200"/>
+			</div>
+            </div>
+        
+        
+        <div class="footer">
+        
+            <img src="images/telefon.png" class="telefon"/>
+            <p class="telephon_number">+7708-355-23-92</p>
+            <p class="telephon_number1">+7778-384-74-48</p>
+            <img src="images/dostyk.png" class="dostyk"/>
+            <p class="call">Позвоните нам!</p>
+            <p class="invite">Приглашает вас!</p>
+            <div class="facebook"/>
+                <a href="https://www.facebook.com/SCDOSTAR/"><img src="images/facebook.png" width="40" height="30"/></a>
+            <div class="instagram">
+                <a href="https://www.instagram.com/scdostar/?hl=ru"><img src="images/instagram.png" width="40" height="30"/></a>
+            </div>
+            <div class="vk">
+                <a href="https://vk.com/sc_dostar"><img src="images/vk.png" width="40" height="30"/></a>
+            </div>
+        </div>
+        
+        
+    </body>
+</html> 

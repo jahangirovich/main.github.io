@@ -1,0 +1,563 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    height:10px;
+}
+
+.animation{
+    height:450px;
+    width: 100%;
+}
+
+.logo{
+    width:600px;
+    height:400px;
+    margin-left: 100px;
+    margin-top: -400px;
+}
+.for_logo1{
+    font-size: 50px;
+    color:white;
+    margin-left: 35%;
+    margin-top: -380px;
+}
+
+.for_logo2 {
+    color: white;
+    font-size: 50px;
+	margin-left:500px;
+    margin-top: 20px;
+	
+}
+
+.header h1 {
+    color:white;
+    margin-left: 550px;
+    position: absolute;
+}
+
+.navigate{
+    margin-left:560px;
+    margin-top: 100px;
+    font-family:'Courgette' ;
+    font-size: 30px;
+}
+
+.navigate a{
+    text-decoration: none;
+    color:white;
+    background-color: #1e276c;
+    padding: 15px 20px;
+}
+
+.navigate a:visited{
+	background-color: #1e276c;
+}
+
+.navigate a:hover{
+    background-color: #f3b806;
+    color:#5e5a5b;
+}
+
+@media only screen and (max-device-width: 480px){
+	.navigate{
+		margin-left:550px;
+		margin-top:100px;
+		font-family:'Courgette' ;
+		font-size:15px;
+	}
+	.navigate a{
+    text-decoration: none;
+    color:white;
+    background-color: #1e276c;
+    padding: 5px 5px;
+	}
+
+	.navigate a:hover{
+		background-color: #f3b806;
+		color:#5e5a5b;
+	}
+	.for_logo1{
+    font-size: 30px;
+    color:white;
+    margin-left: 500px;
+    margin-top: -310px;
+	}
+    .animation{
+		height:400px;
+		width: 150%;
+	}
+	.for_logo2 {
+		color: white;
+		font-size: 30px;
+		margin-left: 600px;
+		margin-top: 20px;
+	}  
+	
+}
+
+
+
+@keyframes slidein{
+    from{
+        margin-left: 80%;
+        width: 100%;
+    }
+    to{
+        margin-right:200px;
+        width:80%;
+    }
+    
+}
+
+.word_animation{
+    font-size: 25px;
+    position: relative;
+    animation-duration:3s;
+    animation-name: slidein;
+    margin-left: 200px;
+    margin-top: -140px;
+	float:left;
+}
+
+@keyframes slide {
+    from {
+        margin-left: 80%;
+    }
+    to {
+        margin-left: 700px;
+        width: 400px;
+        height: 250px;
+    }
+}
+
+.sliding {
+    position:  relative;
+    animation-duration: 3s;
+    animation-name: slide;
+    margin-left: 700px;
+    width: 400px;
+    height: 250px;
+    margin-top: -100px;
+}
+
+
+.button2{
+    border: none;
+    margin-top: -400px;
+    margin-left: 950px;
+    width:40px;
+    height:40px;
+    background-color: #1e256b;
+    color:white;
+}
+.button1{
+    border: none;
+    margin-left:150px;
+	margin-top:-400px;
+    width:40px;
+    height:40px;
+    background-color: #1e256b;
+    color:white;
+}
+
+.place {
+    margin-top: 300px;
+}
+
+.about_us1 {
+    margin-top: 450px;
+    margin-left: 500px;
+    font-size: 35px;
+    border-bottom: 2px solid #1e256b;
+    width: 320px;
+}
+
+.respond {
+    color: #1e256b;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 180px;
+    border-right: 2px solid #1e256b;
+    width: 300px;
+}
+
+.respond1 {
+    color: #1e256b;
+    font-size: 20px;
+    margin-top: -190px;
+    margin-left: 530px;
+    border-right: 2px solid #1e256b;
+    height: 190px;
+    width: 300px;
+}
+
+
+.respond2 {
+    color: #1e256b;
+    font-size: 20px;
+    margin-top: -190px;
+    margin-left: 880px;
+}
+
+.conteiner {
+    margin-top: -300px;
+}
+
+.location {
+    color: black;
+    font-size: 35px;
+    margin-top: 140px;
+    margin-left: 400px;
+    border-bottom: 2px solid #1e256b;
+    width: 495px;
+}
+
+.location1 {
+    color: #1e256b;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-right: 2px solid #1e256b;
+    width: 350px;
+    height: 150px;
+}
+
+.location2 {
+    color: #1e256b;
+    font-size: 25px;
+    margin-top: -150px;
+    margin-left: 510px;
+    border-right: 2px solid #1e256b;
+    width: 320px;
+    height: 150px;
+}
+
+.location3 {
+    color: #1e256b;
+    font-size: 25px;
+    margin-top: -150px;
+    margin-left: 860px;
+
+}
+
+.what{
+    margin-left: 860px;
+    margin-top: 200px;
+}
+
+.what1 {
+    margin-left: 470px;
+    margin-top: -200px;
+}
+
+.what2 {
+    margin-left:80px;
+	margin-top:-200px;
+}
+
+@media only screen and (max-device-width: 640px){
+	.respond {
+    color: #1e256b;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 500px;
+    border-bottom: 1px solid #1e256b;
+	border-right: 1px solid white;
+	width:300px;
+	height:160px;
+}
+
+.respond1 {
+    color: #1e256b;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 500px;
+    border-bottom: 1px solid #1e256b;
+	border-right: 1px solid white;
+	width:300px;
+	height:90px;
+}
+
+
+.respond2 {
+    color: #1e256b;
+    font-size: 17px;
+    margin-top:50px;
+    margin-left: 500px;
+	border-bottom:1px solid #1e256b;
+	width:250px;
+		height:100px;
+}
+	
+	
+	.button2{
+    border: none;
+    margin-top: -170px;
+    margin-left: 1130px;
+    width:40px;
+    height:40px;
+    background-color: #1e256b;
+    color:white;
+}
+.button1{
+    border: none;
+    margin-left:120px;
+    width:40px;
+	margin-top:-170px;
+    height:40px;
+    background-color: #1e256b;
+    color:white;
+}
+
+
+
+sliding {
+    position:  relative;
+    animation-duration: 3s;
+    animation-name: slide;
+    margin-left: 700px;
+    width: 400px;
+    height: 250px;
+    margin-top: -250px;
+}
+
+
+.word_animation{
+    font-size: 25px;
+    position: relative;
+    animation-duration:3s;
+    animation-name: slidein;
+    margin-left: 200px;
+    margin-top: -250px;
+	float:left;
+}
+
+	.location1 {
+    color: #1e256b;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 320px;
+    border-right: 2px solid white;
+	border-bottom:1px solid #1e256b;
+    width: 320px;
+    height: 55px;
+}
+
+.location2 {
+    color: #1e256b;
+    font-size: 16px;
+    margin-top: 200px;
+    margin-left: 320px;
+    border-right: 1px solid white;
+	border-bottom:1px solid #1e256b;
+    width: 200px;
+    height: 20px;
+}
+.location3 {
+    color: #1e256b;
+    font-size: 16px;
+    margin-top: 200px;
+    margin-left: 320px;
+	border-bottom:1px solid #1e256b;
+	width:250px;
+	height:30px;
+}
+	.what2{
+    margin-left: 800px;
+    margin-top: -560px;
+	border-bottom:3px solid #1e256b;
+	width:200px;
+	height:100px;
+}
+.what1 {
+    margin-left: 800px;
+    margin-top: -330px;
+	border-bottom:3px solid #1e256b;
+	width:200px;
+	height:100px;
+	
+}
+
+.what {
+    margin-left:800px;
+	margin-top:-10px;
+	border-bottom:3px solid #1e256b;
+	width:200px;
+	height:100px;
+}
+	.animation{
+    height:400px;
+    width: 130%;
+    }
+}
+
+
+@media only screen and (max-device-width: 1080px){
+	
+	.logo{
+    width:600px;
+    height:400px;
+    margin-left: -10px;
+    margin-top: -400px;
+}
+.for_logo1{
+    font-size: 50px;
+    color:white;
+    margin-left: 35%;
+    margin-top: -310px;
+}
+
+.for_logo2 {
+    color: white;
+    font-size: 50px;
+	margin-left:500px;
+    margin-top: 20px;
+}
+	.navigate{
+    margin-left:400px;
+    margin-top: 100px;
+    font-family:'Courgette' ;
+    font-size: 30px;
+
+	}
+	footer{
+	width:150%;
+	background-color:#1e256b;
+	height:200px;
+	margin:0 auto;
+	margin-top:30px;
+	}
+
+}
+
+.end{
+	width:100%;
+	background-color:#1e256b;
+	height:200px;
+	margin:0 auto;
+	margin-top:30px;
+}
+
+
+
+.call{
+	font-family: 'Berkshire Swash', cursive;
+	color:white;
+	padding:40px;
+	margin-top:-10px;
+}
+.icon_telefon{
+	width:30px;
+	height:30px;
+	margin-left:40px;
+	color:white;
+	margin-top:50px;
+}
+
+
+.numbers{
+	color:white;
+	font-weight:bold;
+	margin-left:70px;
+	margin-top:-30px;
+}
+
+.png{
+	width:300px;
+	height:120px;
+	margin-left:500px;
+	margin-top:-140px;
+}
+
+.invite{
+	color:white;
+	font-family:'Berkshire Swash', cursive;
+    margin-left:580px;
+	margin-top:-70px;
+	font-size:20px;
+}
+
+.icons{
+	margin-left:1200px;
+	margin-top:-100px;
+}
+
+.icons2{
+	margin-left:1280px;
+	margin-top:-30px;
+}
+.icons3{
+	margin-left:1240px;
+	margin-top:-30px;
+}
+
+.find{
+	margin-left:1200px;
+	margin-top:45px;
+	color:white;
+	font-family:'Berkshire Swash', cursive;
+}
+
+.footer{
+        background-color: #1e256b;
+        margin-top: 200px;
+        height: 190px;
+    }
+    
+    .dostyk{
+        width: 200px;
+        height: 80px;
+        margin-left: 550px;
+        margin-top: -50px;
+    }
+
+.telefon{
+    width: 20px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.telephon_number{
+    font-size: 20px;
+    color: white;
+    margin-left: 90px;
+    margin-top: -40px;
+}
+.telephon_number1{
+    font-size: 20px;
+    color: white;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.call{
+    font-size: 20px;
+    color: white;
+    font-family: 'Neuton', serif;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+.invite{
+    font-size: 20px;
+    color: white;
+    font-family: 'Neuton', serif;
+    margin-top: -60px;
+}
+
+.facebook{
+    margin-top: -80px;
+    margin-left: 95%;
+}
+.instagram{
+   
+}
+
+.vk{
+    
+}
